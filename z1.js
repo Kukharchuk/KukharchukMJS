@@ -1,3 +1,54 @@
+//CALCULATOR
+
+var a,b,znak;
+a = Number(prompt("Введите первое число", a));
+b = Number(prompt("Введите второе число", b));
+znak = prompt ("Введите знак", znak)
+
+
+switch (znak) {
+  case "+":
+    alert( a + b );
+    break;
+  case "-":
+    alert( a - b );
+    break;
+  case "*":
+    alert( a * b );
+    break;
+  case "/":
+  	alert(a / b)
+  default:
+    alert( 'Такой операции нет!' );
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
  /*var t,str = prompt("Введитие 1 число", t);
@@ -71,41 +122,10 @@ for (var i = 0; i < N; i++) {
  
 document.write(n);
 
-var d = new Date();
-document.writeln(d.getDate());
-document.writeln(d.getYear());
-document.writeln(d.getFullYear());
-document.writeln(d.getDay());
-document.writeln(d.getMonth());
-document.writeln(d.getMinutes());
-document.writeln(d.getSeconds());
-document.writeln(d.getMilliseconds());
-document.writeln(d.getHours());*/
+*/
 
 
 
-//CALCULATOR
-
-var a,b,znak;
-a = prompt("Введите первое число", a);
-b = prompt("Введите второе число", b);
-znak = prompt ("Введите знак", znak)
-
- 
-
-if (znak == "+") {
-	alert(Number(a) + Number(b))
-} 
-else
-if (znak == "-") {
-	alert (a - b)
-}
-else
-if (znak == "*")
-     alert (a*b)
-else
-if (znak == "/") 
-	alert (a/b)
 
 
 
