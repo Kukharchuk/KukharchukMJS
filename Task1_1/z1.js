@@ -5,21 +5,23 @@ a = Number(prompt("Введите первое число", a));
 b = Number(prompt("Введите второе число", b));
 znak = prompt ("Введите знак", znak)
 
-
-switch (znak) {
-  case "+":
-    alert( a + b );
-    break;
-  case "-":
-    alert( a - b );
-    break;
-  case "*":
-    alert( a * b );
-    break;
-  case "/":
-  	alert(a / b)
-  default:
-    alert( 'Такой операции нет!' );
+if ( a == NaN || b == NaN)
+	alert ("Неверные данные")
+else
+	switch (znak) {
+	  case "+":
+	    alert( a + b );
+	    break;
+	  case "-":
+	    alert( a - b );
+	    break;
+	  case "*":
+	    alert( a * b );
+	    break;
+	  case "/":
+	  	alert(a / b)
+	  default:
+	    alert( 'Такой операции нет!' );
 }
 
 
