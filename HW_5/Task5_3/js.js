@@ -1,5 +1,5 @@
-function random(numb) {
-    return Math.floor(Math.random()*100%numb);
+function random(number) {
+    return Math.floor(Math.random()*100%number);
 }
 
 var names = ["Мария", "Валерия", "Виктор", "Надежда", "Анастасия", "Николай"];
@@ -23,7 +23,7 @@ var I = setInterval(function(){
     div.appendChild(p);
     p.innerText = names[random(6)] + " из г." + cities[random(6)] + " купил(а) " + random(20) + " ед. товара " + goods[num];
     numGoods++;
-    if (numGoods > 9) {
+    if (numGoods > 15) {
         clearInterval(I);
     }
 },2000);
