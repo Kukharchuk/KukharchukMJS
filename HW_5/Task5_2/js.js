@@ -73,33 +73,30 @@ countries[11] = {
 };
 
     var table = document.createElement("table");
-	var elements = document.getElementById("table"); 
-	elements.appendChild(table);  
+	var cont = document.getElementById("table"); 
+	cont.appendChild(table);  
 	
-var body = document.createElement("body"); 
-elements.appendChild(body); 
+	var main = document.createElement("main"); 
+	cont.appendChild(main); 
 
 for(var i = 0; i <= 11; i++)
 { 
-
 		var tr = document.createElement("tr"); 
-					var td = document.createElement("td"); 
-				tr.appendChild(td); 
-			var img = document.createElement("img"); 
-			td.appendChild(img); 
-				img.setAttribute("src",countries[i].flag); 
-				img.setAttribute("width","60px"); 
-			body.appendChild(tr); 
-			var td = document.createElement("td"); 
-			td.innerHTML = countries[i].name; 
-			tr.appendChild(td); 
-
-			var td = document.createElement("td"); 
-				td.innerHTML = countries[i].population; 
-			tr.appendChild(td); 
-
-			var td = document.createElement("td"); 
-				td.innerHTML = countries[i].code; 
-			tr.appendChild(td);  
+		var td = document.createElement("td"); 
+		tr.appendChild(td); 
+		var img = document.createElement("img"); 
+		td.appendChild(img); 
+		img.setAttribute("src",countries[i].flag); 
+		img.setAttribute("width","70px"); 
+		main.appendChild(tr); 
+		var td = document.createElement("td"); 
+		td.innerHTML = countries[i].name; 
+		tr.appendChild(td); 
+		var td = document.createElement("td"); 
+		td.innerHTML = countries[i].population; 
+		tr.appendChild(td); 
+		var td = document.createElement("td"); 
+		td.innerHTML = countries[i].code; 
+		tr.appendChild(td);  
 
 	}
