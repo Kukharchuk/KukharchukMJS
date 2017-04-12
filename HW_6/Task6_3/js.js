@@ -40,7 +40,7 @@ var I = setInterval(function(){
 
     var p = document.createElement("p");
     div_card_content.appendChild(p);
-    p.innerText = names[random(6)] + " из г." + cities[random(6)] + " купил(а) " + random(20) + " ед. товара " + goods[num];
+    p.innerText = names[random(6)] + " из г." + cities[random(6)] + " купил(а) " +(1 + random(20)) + " ед. товара " + goods[num];
     numGoods++;
 
     var div_card_action = document.createElement("div");
