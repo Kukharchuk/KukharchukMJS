@@ -9,8 +9,8 @@ var ELEMENT = 0;
 function derevo(dom){
     dom.childNodes.forEach(function(e){
         console.log(e);
-        (e.nodeType == 1)?(ELEMENT++):(e.nodeType == 3)?(TEXT++):(COMMENT++);
-        if(e.nodeType == 1 && e.childNodes != []) {
+        (e.nodeType == document.ELEMENT_NODE)?(ELEMENT++):(e.nodeType == document.TEXT_NODE)?(TEXT++):(COMMENT++);
+        if(e.nodeType == 1 && e.childNodes.length != []) {
             derevo(e);
         }
     })}
