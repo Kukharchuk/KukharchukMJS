@@ -16,26 +16,33 @@ var maryaFramework = {
 		parent.replaceChild(t,w)
 	},
 	event: function(t,e,f){
-		t.addEventListener(e,f)
+		if (typeof t.addEventListener(e,f) == "function"){
+			t.addEventListener(e,f)
+		}
+		else t.attachEvent("on" + e,f);
+
 	},
 	unevent: function(t,e,f){
-		t.removeEventListener(e,f)
-	},
+		if(typeof t.removeEventListener == "function") { 
+				t.removeEventListener(e, f); 
+		} 
+		else { 
+				t.detachEvent("on" + e, f) 
+		}
+},
 	dispatch: function(t,e){
 		var event = new Event(e); 
 		t.dispatchEvent(event); 
 	}
-}
+};
+
 
 /*var btn = document.getElementById("btn");
 var fun =  function(){
 alert("kek");
-maryaFramework.unevent(btn, "click", fun);
-};
-
+}
 maryaFramework.event(btn, "click", fun);
 var el = maryaFramework.create("div"); 
+*/
 
-
-maryaFramework.replace(el, btn)*/
 

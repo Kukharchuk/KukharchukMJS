@@ -1,5 +1,5 @@
 function scr(x) {
-  return Math.pow(x, 4) - x;
+  return Math.pow(x, 3) - x;
 }
 
 var x = 1;

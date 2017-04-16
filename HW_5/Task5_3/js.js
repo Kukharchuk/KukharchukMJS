@@ -21,9 +21,9 @@ var I = setInterval(function(){
     img.setAttribute("class","img"); 
     var p = document.createElement("p");
     div.appendChild(p);
-    p.innerText = names[random(6)] + " из г." + cities[random(6)] + " купил(а) " + random(20) + " ед. товара " + goods[num];
+    p.innerText = names[random(6)] + " из г." + cities[random(6)] + " купил(а) " + random(20) + 1 + " ед. товара " + goods[num];
     numGoods++;
     if (numGoods > 15) {
         clearInterval(I);
     }
-},2000);
+}, Math.floor(Math.random()*(4500 + 1 - 2700) + 2700));
