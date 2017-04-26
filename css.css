@@ -1,0 +1,15 @@
+#wrap{
+	position: fixed;
+	top:0;
+	left: 0;
+	width: 100vw;
+	height: 100vw;
+	background-color: rgba(0,0,0,0.4);
+	display: none;
+}
+#inner{
+	width: 30%;
+	margin: 100px auto;
+	background-color: #FFF;
+	padding: 10px
+}

@@ -52,24 +52,42 @@ var maryaFramework = {
 		}
 
 	},
-	width: function(){
-
+	width: function(e){
+		return e.clientWidth;
 	},
-	hight: function(){
-
+	hight: function(e){
+		return e.clientHeight;
 	},
-	pageTop: function(){
-
+	pageTop: function(e){
+        var offset = 0;
+		while(e.offsetParent!= null){
+			offset = e.offsetTop;
+			e = e.offsetParent;
+		}
+		return offset;
 	},
-	pageLeft: function(){
-
-	},	
-
-
+	pageLeft: function(e){
+        var offset = 0;
+		while(e.offsetParent!= null){
+			offset = e.offsetLeft;
+			e = e.offsetParent;
+		}
+		return offset;
+	},
+	css: function(){
+		if (arguments.lenght == 2) {
+			return arguments[0].style[arguments[1]];
+		}
+    	else         
+    		if( arguments.length == 3) {
+            arguments[0].style[arguments[1]] = arguments[2];
+        }
+        	else {console.log("Неверное число аргументов")}
+    }
 
 };
-console.log(maryaFramework.Get.ById("btn"))
-console.log(maryaFramework.Get.BySelector(".inner"))
+var btn = document.getElementById("btn");
+
 
 
 /*var btn = document.getElementById("btn");
