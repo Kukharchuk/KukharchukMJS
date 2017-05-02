@@ -83,7 +83,17 @@ var maryaFramework = {
             arguments[0].style[arguments[1]] = arguments[2];
         }
         	else {console.log("Неверное число аргументов")}
-    }
+    },
+	ajax: function(m,p,f){
+		var xhr = new XMLHttpRequest();
+		xhr.open(m,p, true);
+		var onloadData = function(){f};
+		xhr.onload = function(){
+			onloadData();
+		}
+
+	}
+	
 
 };
 var btn = document.getElementById("btn");
