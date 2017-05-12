@@ -1,0 +1,23 @@
+#main {
+	width: 700px;
+	border: 1px solid black;
+	height: 40px;
+
+}
+img{
+	height: 30px;
+	width: 27px;
+}
+#track{
+	width: 320px;
+	height: 30px;
+	border: 1px solid black;
+	float: right;
+	margin-top: 5px;
+	margin-right: 5px;
+
+}
+#track_now {
+	height: 30px;
+	width: 0%;
+	background-color: black;
