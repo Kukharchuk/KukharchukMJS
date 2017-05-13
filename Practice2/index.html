@@ -1,0 +1,36 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+<meta charset="UTF-8"> 
+<link rel="stylesheet" type="text/css" href="css.css">
+<title> </title> 
+</head> 
+<body id="body"> 
+<!--<canvas width="500" height="500" style="background-image: url(2.png); background-size:cover;"></canvas>-->
+
+<audio></audio>
+<div class="wrap">
+	<div id="song_name" style="height: 20px; padding-left: 7px; padding-top: 2px;"></div>
+
+	<div id = "main">
+		<button type="button" id="play"><img src="play.png"></button>
+		<button type="button" id="stop"><img src="stop.png"></button>
+		<button type="button" id="speed_more"><img src="speedon.png"></button>
+		<button type="button" id="speed_less"><img src="speedoff.png"></button>
+		<button type="button" id="volume"><img src="vol.png"></button>
+		<input type="range" name="" id="vol_track" min="0" max="10" step="1">
+		<button type="button" id="mix"><img src="mix.png"></button>
+		<div id="track">
+			<div id="track_now"></div>
+		</div>
+		<div id="time"></div>
+		<div id="speed"></div>
+
+	</div>
+	<div> 
+		<ul id="list_songs"></ul>
+	</div>
+</div>
+</body>
+</html>
+<script type="text/javascript" src="js.js"></script>
