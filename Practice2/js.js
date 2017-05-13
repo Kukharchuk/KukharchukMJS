@@ -1,5 +1,7 @@
 /*Не все работает хорошо, при перемешивании, новая песня вкоючается по старому списку.
- И ешё есть бак, когда включаешь первый раз перую аудиозапись, дорожка просмотра не двигается, пока не успела решить это*/
+ И ешё есть бак, когда включаешь первый раз перую аудиозапись, дорожка просмотра не двигается,
+ для этого нужно нажать паущу и снова плей на самом плеере, 
+ пока не успела решить это*/
 
 
 	var div = document.getElementById("main");
@@ -123,6 +125,7 @@ function play_song(songs, k, len){
 	})
 
 
+
 	function length(){
 		return track.getBoundingClientRect().right - track.getBoundingClientRect().left
 	}
@@ -131,11 +134,11 @@ function play_song(songs, k, len){
 		
 		audio.addEventListener("play", function(){
 		setInterval(function() {
-			time.innerHTML = (audio.currentTime/60).toFixed(2) + "/" + (audio.duration/60).toFixed(2);
+			time.innerHTML = Math.floor(audio.currentTime / 59) + ':' + (audio.currentTime % 59).toFixed(0) + "/" + Math.floor(audio.duration / 59) + ':' + (audio.duration % 59).toFixed(0);
 			var wdth = audio.currentTime/audio.duration*100;
 			track_now.style.width = wdth + "%";
 		})
-		}, 1);
+		}, 30);
 
 	track.addEventListener("click", function(e){
 		var new_width = e.offsetX/length()*100;
