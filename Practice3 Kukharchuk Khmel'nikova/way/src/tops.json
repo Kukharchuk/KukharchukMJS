@@ -1,0 +1,83 @@
+[
+    {
+        "id" : "100",
+        "name" : "Cactus Print Crop Tee",
+        "price" : 7.99,
+        "img" : "src/img/100.jpg",
+        "description" : "Sleeve Length(cm): S:17cm, M:18cm, L:19cm, XL:20cm; Bust(cm): S:90cm, M:94cm, L:98cm, XL:102cm; Shoulder(cm): S:42cm, M:43cm, L:44cm, XL:45cm; Size Available: S,M,L,XL; Length(cm): S:40cm, M:41cm, L:42cm, XL:43cm; Fabric: Fabric has some stretch; Season: Summer; Pattern Type: Graphic; Sleeve Length: Short Sleeve; Color: Yellow",
+        "quantity" : 120,
+        "tags": ["yellow", "print", "short", "summer", "casual"]
+    },
+    {
+        "id" : "101",
+        "name" : "USA Print Drop Shoulder",
+        "price" : 8.99,
+        "img" : "src/img/101.jpg",
+        "description" : "Sleeve Length(cm): S:17cm, M:18cm, L:19cm, XL:20cm; Bust(cm): S:90cm, M:94cm, L:98cm, XL:102cm; Shoulder(cm): S:42cm, M:43cm, L:44cm, XL:45cm; Size Available: S,M,L,XL; Length(cm): S:40cm, M:41cm, L:42cm, XL:43cm; Fabric: Fabric has some stretch; Season: Summer; Pattern Type: Graphic; Sleeve Length: Short Sleeve; Color: Yellow",
+        "quantity" : 183,
+        "tags": ["grey", "casual", "letters", "summer"]
+    },
+    {
+        "id" : "102",
+        "name" : "Rose Patch Slub Tee",
+        "price" : 7.99,
+        "img" : "src/img/102.jpg",
+        "description" : "Sleeve Length(cm): S:17cm, M:18cm, L:19cm, XL:20cm; Bust(cm): S:90cm, M:94cm, L:98cm, XL:102cm; Shoulder(cm): S:42cm, M:43cm, L:44cm, XL:45cm; Size Available: S,M,L,XL; Length(cm): S:40cm, M:41cm, L:42cm, XL:43cm; Fabric: Fabric has some stretch; Season: Summer; Pattern Type: Graphic; Sleeve Length: Short Sleeve; Color: Yellow",
+        "quantity" : 93,
+        "tags": ["black", "print", "rose", "summer", "casual", "short", "floral"]
+    },
+    {
+        "id" : "103",
+        "name" : "Striped T-shirt With Buttons",
+        "price" : 10.89,
+        "img" : "src/img/103.jpg",
+        "description" : "Sleeve Length(cm): S:17cm, M:18cm, L:19cm, XL:20cm; Bust(cm): S:90cm, M:94cm, L:98cm, XL:102cm; Shoulder(cm): S:42cm, M:43cm, L:44cm, XL:45cm; Size Available: S,M,L,XL; Length(cm): S:40cm, M:41cm, L:42cm, XL:43cm; Fabric: Fabric has some stretch; Season: Summer; Pattern Type: Graphic; Sleeve Length: Short Sleeve; Color: Yellow",
+        "quantity" : 110,
+        "tags": ["black", "white", "buttons", "plane", "line"]
+    },
+    {
+        "id" : "104",
+        "name" : "Letter Print Cuffed Tee",
+        "price" : 6.99,
+        "img" : "src/img/104.jpg",
+        "description" : "Sleeve Length(cm): S:17cm, M:18cm, L:19cm, XL:20cm; Bust(cm): S:90cm, M:94cm, L:98cm, XL:102cm; Shoulder(cm): S:42cm, M:43cm, L:44cm, XL:45cm; Size Available: S,M,L,XL; Length(cm): S:40cm, M:41cm, L:42cm, XL:43cm; Fabric: Fabric has some stretch; Season: Summer; Pattern Type: Graphic; Sleeve Length: Short Sleeve; Color: Yellow",
+        "quantity" : 76,
+        "tags": ["letters", "multicolor", "summer", "casual"]
+    },
+    {
+        "id" : "105",
+        "name" : "Spiral Tie Dye Print",
+        "price" : 9.99,
+        "img" : "src/img/105.jpg",
+        "description" : "Sleeve Length(cm): S:17cm, M:18cm, L:19cm, XL:20cm; Bust(cm): S:90cm, M:94cm, L:98cm, XL:102cm; Shoulder(cm): S:42cm, M:43cm, L:44cm, XL:45cm; Size Available: S,M,L,XL; Length(cm): S:40cm, M:41cm, L:42cm, XL:43cm; Fabric: Fabric has some stretch; Season: Summer; Pattern Type: Graphic; Sleeve Length: Short Sleeve; Color: Yellow",
+        "quantity" : 234,
+        "tags": ["multicolor", "summer", "casual", "short", "plane"]
+    },
+    {
+        "id" : "106",
+        "name" : "Pinstriped Peplum Tank Top",
+        "price" : 8.99,
+        "img" : "src/img/106.jpg",
+        "description" : "Sleeve Length(cm): S:17cm, M:18cm, L:19cm, XL:20cm; Bust(cm): S:90cm, M:94cm, L:98cm, XL:102cm; Shoulder(cm): S:42cm, M:43cm, L:44cm, XL:45cm; Size Available: S,M,L,XL; Length(cm): S:40cm, M:41cm, L:42cm, XL:43cm; Fabric: Fabric has some stretch; Season: Summer; Pattern Type: Graphic; Sleeve Length: Short Sleeve; Color: Yellow",
+        "quantity" : 149,
+        "tags": ["summer", "casual", "blue", "line"]
+    },
+    {
+        "id" : "107",
+        "name" : "MRose Embroidered Tshirt",
+        "price" : 9.49,
+        "img" : "src/img/107.jpg",
+        "description" : "Sleeve Length(cm): S:17cm, M:18cm, L:19cm, XL:20cm; Bust(cm): S:90cm, M:94cm, L:98cm, XL:102cm; Shoulder(cm): S:42cm, M:43cm, L:44cm, XL:45cm; Size Available: S,M,L,XL; Length(cm): S:40cm, M:41cm, L:42cm, XL:43cm; Fabric: Fabric has some stretch; Season: Summer; Pattern Type: Graphic; Sleeve Length: Short Sleeve; Color: Yellow",
+        "quantity" : 136,
+        "tags": ["rose", "yellow", "summer", "print"]
+    },
+        {
+        "id" : "108",
+        "name" : "Ribbed Tank Top",
+        "price" : 8.39,
+        "img" : "src/img/108.jpg",
+        "description" : "Sleeve Length(cm): S:17cm, M:18cm, L:19cm, XL:20cm; Bust(cm): S:90cm, M:94cm, L:98cm, XL:102cm; Shoulder(cm): S:42cm, M:43cm, L:44cm, XL:45cm; Size Available: S,M,L,XL; Length(cm): S:40cm, M:41cm, L:42cm, XL:43cm; Fabric: Fabric has some stretch; Season: Summer; Pattern Type: Graphic; Sleeve Length: Short Sleeve; Color: Yellow",
+        "quantity" : 213,
+        "tags": ["yellow", "short", "summer", "floral"]
+    }
+]

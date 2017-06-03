@@ -1,0 +1,32 @@
+[
+    {
+        "name" : "Tops",
+        "hash" : "#tops", 
+        "url" : "src/tops.json"
+    },
+    {
+        "name" : "Dresses",
+        "hash" : "#dresses",
+        "url" : "./src/dresses.json"
+    },
+    {
+        "name" : "Bottoms",
+        "hash" : "#bottoms",
+        "url" : ""
+    },
+    {
+        "name" : "Swimwear",
+        "hash" : "#swimwear",
+        "url" : ""
+    },
+    {
+        "name" : "Activewear",
+        "hash" : "#activewear",
+        "url" : ""
+    },
+    {
+        "name" : "Sweatshirts",
+        "hash" : "#sweatshirts",
+        "url" : ""
+    }
+]

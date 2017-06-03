@@ -1,0 +1,80 @@
+body {
+    overflow-x: hidden;
+}
+
+.masthead {
+    background-color: black;
+    opacity: 0.6;
+    height: 60px;
+    width: 100%;
+    left: 0;
+}
+.masthead-nav {
+    position: relative;
+}
+.inner {
+    padding: 10px 40px 10px 40px;
+}
+
+
+button{
+	margin-left: 7px;
+}
+
+.descriptionWrap {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vw;
+    background-color: rgba(0,0,0,0.4);
+    display: none;
+}
+
+.descriptionInner {
+    width: 40%;
+    margin: 60px auto;
+    z-index: 166;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.container { 
+    margin-top: 50pt; 
+    padding-left:5%; 
+    padding-right: 5%; 
+} 
+
+button{ 
+    margin-left: 7px; 
+} 
+
+span{ 
+    font-size: 20px; 
+} 
+
+.bag{ 
+    font-size: 20pt; 
+    color: orange; 
+}
+
+.descriptionText{
+    display: inline-block;
+    margin-left: 10pt;
+    margin-right: 3pt;
+}
+.descriptionIMG{
+    float: left;
+    clear: both;
+    display: inline-block;
+    width: 100%;
+    margin-left: 10px;
+}
+.col-sm-6{
+    padding: 0;
+}
+
+.underimg{
+    padding-left: 10pt;
+    margin-top: 10pt;
+}
