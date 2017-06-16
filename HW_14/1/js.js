@@ -1,7 +1,7 @@
 var btn = document.getElementById("btn");
 var canvas = document.querySelector("canvas");
 var ctx = canvas.getContext("2d");
-var delButton = document.getElementById("delButton")
+var del = document.getElementById("del")
 
 var dataURL = localStorage.getItem(canvas);
 var img = new Image;
@@ -31,7 +31,7 @@ btn.addEventListener("click", function(){
     window.open(dataURL);
 });
 
-delButton.addEventListener("click", function(){
+del.addEventListener("click", function(){
     ctx.clearRect(0, 0, canvas.width, canvas.height);
 })
 
